@@ -21,3 +21,17 @@ npm uninstall
 
 install angular cli
     npm i @angular/cli
+
+
+install template engine using html page
+    ejs template engine
+
+
+middleware
+    types of middleware in node js
+        application level
+        router level
+        error handling
+        built in 
+        third party
+        
