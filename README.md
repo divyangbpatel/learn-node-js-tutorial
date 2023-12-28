@@ -35,3 +35,24 @@ middleware
         built in 
         third party
         
+
+use mongodb database
+    non structure database
+<!-- mongodb+srv://divyang:Divyang123@cluster0.ibhomni.mongodb.net/ -->
+
+db commands
+    show dbs
+    use new_db_name
+    db.createCollection('table_name')
+    show collections
+    db.table_name.drop()
+
+
+    <!-- crud oppp commands -->
+    
+    db.table_name.insertOne({name:'i phone max pro',brand:'apple',price:1250,category:'mobile'})
+    db.table_name.find()
+    db.table_name.updateOne({name:"u10"},{$set:{brand:"oppo"}})
+    db.table_name.deleteOne({brand:"apple"})
+
+
